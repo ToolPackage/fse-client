@@ -4,7 +4,7 @@ import { Header, Container } from './base';
 import PageRouter from './base/PageRouter';
 import Sidebar from './base/Sidebar';
 import RightClickMenu from './base/RightClickMenu';
-import ExamplePage from './view/ExamplePage';
+import BrowsePage from './view/BrowsePage';
 const styles =  require('./App.css') as any;
 
 interface AppState {
@@ -21,11 +21,11 @@ class App extends Component<any, AppState> {
   render() {
     return (
         <div className={styles.app}>
-          <Header title='Make In Time' />
+          <Header title='FSE' />
           <Container>
             <Sidebar />
             <PageRouter>
-              <ExamplePage />
+              <BrowsePage />
             </PageRouter>
             <RightClickMenu />
           </Container>

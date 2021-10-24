@@ -1,6 +1,4 @@
-import { ipcRenderer } from 'electron';
 import React, { Component } from 'react';
-import { Channels } from '../../common/Constants';
 import AnimatedElement from '../base/AnimatedElement';
 import Button from '../base/Button';
 import Divider from '../base/Divider';
@@ -28,17 +26,17 @@ class ExampleList extends Component {
   render() {
     return (
       <div className={styles.exampleList}>
-      <div className={styles.header}>
-        <Button fixSize={false} style={{width: '100%'}}>Import</Button>
-        <Button fixSize={false} style={{width: '100%'}}>Refresh</Button>
-        <Button fixSize={false} style={{width: '100%'}}>Manage</Button>
+        <div className={styles.header}>
+          <Button fixSize={false} style={{width: '100%'}}>Import</Button>
+          <Button fixSize={false} style={{width: '100%'}}>Refresh</Button>
+          <Button fixSize={false} style={{width: '100%'}}>Manage</Button>
+        </div>
+        <div className={styles.content}>
+          <ExampleListItem projectName='Project A' currentBranch='pr-ll' lastUpdateOn='Updated 13 mins ago' projectPath='C:/Workspace/example/projectA' />
+          <Divider />
+          <ExampleListItem projectName='Project B' currentBranch='master' lastUpdateOn='Updated 13 mins ago' projectPath='C:/Workspace/example/projectB' />
+        </div>
       </div>
-      <div className={styles.content}>
-        <ExampleListItem projectName='Project A' currentBranch='pr-ll' lastUpdateOn='Updated 13 mins ago' projectPath='C:/Workspace/example/projectA' />
-        <Divider />
-        <ExampleListItem projectName='Project B' currentBranch='master' lastUpdateOn='Updated 13 mins ago' projectPath='C:/Workspace/example/projectB' />
-      </div>
-    </div>
     )
   }
 }
