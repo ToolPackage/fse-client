@@ -1,0 +1,43 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 2814674 */
+  src: 
+       url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAAVQAAsAAAAACsQAAAUCAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHFQGYACDbAqHZIZPATYCJAMgCxIABCAFhGcHaxtaCcgOJaHAwMBgAAVgPHzs9+vc56g31WZWLf2QGBKJkN6QIPmmqFLqbvUS+P9/M7uEuNUZEaP1EVOGeaRp9BDqRiqaqZiuaF0ifytif3vy/+/n6jQtEZpevBRSo8SJfZWLisQ1LKQl4h6imiKHFBKXbONn1aKIR3bzobVPXiPQbNk0gsOKujZQX1CcG8YS4pFB3jku7DYKpBtFFokLFV9QT80g7kBEciN4BuDW/X78h9yQgkSeAr/K6Xn5CNz6ruC7HfiK6AqQ/gATIcDuCXKkmJ+YFtfxvCt4WjcP1xwiCzWAdpVE0SmZ/K7nu/7vhr7bEY2Cs5UM5xjahbPzXzyQK5RCIpURBQDTunCe0eWr9Ksscn6VZFHwi/TF2R6QBLD9IEmAHQJJCuwOCPx0TGVO6QR6QawBxANwbtMVhOSjeASp1ahVKcdrdXqralEsVesN5isWa/nAylGFzn9yxYmFaj4cxkQrIxGFxh8KgbAOBhfxrxz1ukS9DfZ4I28PrLQsHiU2My7YxS9ehJqf9psW7l5xYv0FSj54a/yNZ0EQ1KGQQuWP3J307ssIhq8Mh/tWvJIr+TcJ9bay1Wvorm/lL8vkysMvS9LiFw1aGId2mYcDN5As9Kgp7xQfP3TiQlXPiwnUSX8Sffry7iqXEkf4J9dWXn/qf3x1xZVH2f5IpA3kg8H+5mdjeV2qY5nYFuGeRyK17z0jV/PnOjX+0fbQ3BGYVstdIKx3u9TTs4tI75vaz4KgfsWsPL/FsyvOxFecg8LlyRhvmTJqjSrLFBqrBla/TO9ILk1MKk2xbo2lScnIkuRmVApsmZj0dUVie2KHOhKGutdbNuTQ5vkWjWVBjs9h9hdSbN1gnU8tgBMh9/v0Z0kz47eYWr6Pn5n0rBsq+So+bqup+Qcl8fkwUvuPrU1/pnpsnBX3ddyh5MRwYsqh3GnxsSH3siigrFIGxh0/eRJCWfF/ZCbpWpGdlipL52o46lvRNUF5i7ylJE3zl5kNGRkNfdJthb4UIfppPEfJbQWpSOzNaGxIF+v7F26I9dj4x6+qTpTNMdm2e0udrKF76cbKQ8wNV5U1aBfoU/ULIDodZO9l70kKlh3slK/Kwh0qvXQ6xHXFdRSvMhCfVJrmie/lh/0aVMeooL1rnF4NbaMHpajqWEjjYkx5DCzHiekn7AzA8y38Nj7DNXyDn8bzsXX6zl/hLD4RgHRXEIaCBo7N2Lt5uVCfMKiZ8m+l+LtW/bS1n2D4fEvYQAGYMVlk32zM9hFnzU7lVFlofMpHzq8cFnxdUs1iGXNuUbfPGNdDriFUyL+GRGkEUpVRa+achVyLVShUtqDZnPKzW/TwwkUmAyatTiB0OguJdm8h1emhNXNGINfveyh0+h+aNUJ1uRaTQZeyiOLQCDG8kLDTHjcjec5F24Jsc50UW1XdgVifHSqJnMzscmMlciO2jSN882y5HMcQDOtxERWruyGn00N4Wc8cRHOZsznOS2ZlMaEfyaQ9LijFQigcZARh2EIEO5qHG2Nm5/Dfa4HYzOVEYYnWDmT5Fl4WPSFHpmyCtZJxk0adSE+feWxycayGQWDWHT1cCBXNEHGKOg+CN7zTHAiNk2l2gxovUhabjaEymcNzrq95EzTjj6lCgOGYEBNhYkyCSTEZVEd2t91lX4S8i1pAFpU6PT4ka/CwLsqJJXHp2+lvtwnbfYiVND1/GQAAAA==') format('woff2'),
+       url('iconfont.ttf?t=1631692068844') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.iconMinimize:before {
+  content: "\e65a";
+}
+
+.iconMaximize:before {
+  content: "\e65d";
+}
+
+.iconClose:before {
+  content: "\e660";
+}
+
+.iconNormalize:before {
+  content: "\e692";
+}
+
+.iconConfig:before {
+  content: "\e635";
+}
+
+.iconUser:before {
+  content: "\e639";
+}
+
+.iconProject:before {
+  content: "\e63a";
+}
+

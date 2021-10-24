@@ -1,0 +1,55 @@
+{
+  "name": "template",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "electron-webpack dev",
+    "compile": "electron-webpack",
+    "dist": "yarn compile && electron-builder",
+    "dist:dir": "yarn dist --dir -c.compression=store -c.mac.identity=null"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Luncert/template.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Luncert/template/issues"
+  },
+  "homepage": "https://github.com/Luncert/template#readme",
+  "devDependencies": {
+    "@babel/preset-env": "^7.11.5",
+    "@babel/preset-react": "^7.10.4",
+    "@babel/preset-typescript": "^7.10.4",
+    "@types/animejs": "^3.1.4",
+    "@types/electron-devtools-installer": "^2.2.0",
+    "@types/node": "^12.0.2",
+    "@types/react": "^16.8.17",
+    "@types/react-dom": "^16.8.4",
+    "@types/uuid": "^8.3.0",
+    "animejs": "^3.2.0",
+    "babel-loader": "^8.1.0",
+    "css-loader": "^3.6.0",
+    "electron": ">=11.5.0",
+    "electron-builder": "^22.4.1",
+    "electron-devtools-installer": "^2.2.4",
+    "electron-rebuild": "^2.0.1",
+    "electron-webpack": "^2.8.2",
+    "electron-webpack-ts": "^3.2.0",
+    "file-loader": "^6.1.0",
+    "node-sass": "^4.12.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "sass-loader": "^7.1.0",
+    "source-map-support": "^0.5.16",
+    "style-loader": "^1.2.1",
+    "tslint": "^5.16.0",
+    "typescript": "^3.4.5",
+    "url-loader": "^4.1.1",
+    "url-parse": "^1.5.3",
+    "uuid": "^8.3.0",
+    "webpack": "~4.42.1"
+  }
+}

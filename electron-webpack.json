@@ -1,0 +1,15 @@
+{
+  "commonSourceDirectory": "src/common",
+  "staticSourceDirectory": "src/static",
+  "title": true,
+  "main": {
+    "sourceDirectory": "src/main",
+    "webpackConfig": "webpack.main.addition.js"
+  },
+
+  "renderer": {
+    "sourceDirectory": "src/renderer",
+    "template": "src/renderer/index.html",
+    "webpackConfig": "webpack.renderer.additions.js"
+  }
+}

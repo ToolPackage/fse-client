@@ -1,0 +1,6 @@
+
+.pageRouter {
+  position: relative;
+  width: calc(100% - 50px);
+  height: 100%;
+}

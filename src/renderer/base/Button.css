@@ -1,0 +1,17 @@
+
+.btn {
+    position: relative;
+    box-sizing: border-box;
+    color: white;
+    text-align: center;
+    background-color: rgb(56, 56, 56);
+    line-height: 30px;
+    font-size: 12px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.btn i {
+    position: relative;
+    top: 1px;
+}

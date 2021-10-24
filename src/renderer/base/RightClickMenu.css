@@ -1,0 +1,21 @@
+
+.rightClickMenu {
+  position: absolute;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.5);
+}
+
+.wrapper {
+  position: relative;
+  box-sizing: border-box;
+  width: 280px;
+  background-color: rgb(56, 56, 56);
+}
+
+.menuSection {
+  padding: 5px 0px;
+}
+
+.menuItem {
+  padding: 5px 25px;
+  cursor: pointer;
+}
